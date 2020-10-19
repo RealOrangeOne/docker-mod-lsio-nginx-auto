@@ -1,5 +1,7 @@
 # docker-mod-nginx-auto
 
+**Deprecated**: See https://github.com/RealOrangeOne/docker-lsio-mod-more-processes.
+
 Docker mod to set worker processes to auto for [LSIO](https://www.linuxserver.io/) containers.
 
 By default, any LSIO nginx installation ships using [4 worker processes](https://github.com/linuxserver/docker-baseimage-alpine-nginx/blob/master/root/defaults/nginx.conf#L4), which is inefficient for high-core machines. I've [opened](https://github.com/linuxserver/docker-baseimage-alpine-nginx/pull/53) PRs [before](https://github.com/linuxserver/docker-baseimage-alpine-nginx/pull/56), but they were all rejected for "backwards compatibility".
